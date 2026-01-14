@@ -116,8 +116,8 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="t.me/Yadav_ji_admin"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Yadav_ji_admin"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/doctor_shahab_mbbs"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/doctor_shahab_mbbs"),
         ],
     ]
 )
@@ -126,8 +126,8 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Yadav_ji_admin"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Yadav_ji_admin"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/doctor_shahab_mbbs"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/doctor_shahab_mbbs"),
         ],
     ]
 )
@@ -782,7 +782,7 @@ async def text_handler(bot: Client, m: Message):
              url = requests.get(f'https://api.classplusapp.com/cams/uploader/video/jw-signed-url?url={url}', headers={'x-access-token': 'eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MzgzNjkyMTIsIm9yZ0lkIjoyNjA1LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTcwODI3NzQyODkiLCJuYW1lIjoiQWNlIiwiZW1haWwiOm51bGwsImlzRmlyc3RMb2dpbiI6dHJ1ZSwiZGVmYXVsdExhbmd1YWdlIjpudWxsLCJjb3VudHJ5Q29kZSI6IklOIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJpYXQiOjE2NDMyODE4NzcsImV4cCI6MTY0Mzg4NjY3N30.hM33P2ai6ivdzxPPfm01LAd4JWv-vnrSxGXqvCirCSpUfhhofpeqyeHPxtstXwe0'}).json()['url']
                             
             elif "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
-             url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={PW}"
+             url = f"https://anonymouspwplayerr-c96de7802811.herokuapp.com/pw?url={url}&token={pw_token}"
 
             name1 = links.replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
             name = f'{name1[:20]}'
